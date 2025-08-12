@@ -170,7 +170,7 @@ def main(id, batch_seed, init_seed, save_flag, load_flag):
         
 if __name__ == '__main__':
     folder_name = '/Users/willredman/Documents/AIMdyn/Identifying Equivalent Optimization Algorithms/Github/Fully connected neural networks/Results/'
-    experiment_name = 'SGD_MNIST_h=' + str(h) + '_relu_'
+    experiment_name = 'SGD_MNIST_h=' + str(h)
     
     random_seeds = np.array([2, 3, 6, 7, 11, 16, 17, 22, 23, 31, 33, 34, 40, 41, 42, 51, 56, 57, 61, 68, 69, 71, 87, 88, 95]) #[2, 3, 6, 7, 11, 16, 17, 22, 23, 31, 33, 34, 40, 41, 42, 51, 56, 57, 61, 68, 69, 71, 87, 88, 95])
     n_seeds = len(random_seeds)
