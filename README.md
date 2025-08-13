@@ -8,6 +8,7 @@ This folder provides code for studying the training dynamics of online mirror de
 This folder provides code for studying the training dynamics of FCNs, trained on MNIST, for varying widths. Run ```FCN_MNIST_main.py``` to generate your own training trajectories. Vary the parameter *h* to manipulate the width of the FCN. The weight trajectories will get saved into the **Results** folder. Run ```FCN_plotting_results.py``` to generate plots analogous to Fig. 3 of the paper. For completeness, we have also included the Koopman eigenvalues from our own analysis. Running ```FCN_plotting_wasserstein_distance.py``` will replicate the Fig. 3D-F. See the **Figures** folder for our saved figures.
 
 ## Transformer grokking
-This folder provides code for studying the training dynamics of Transformers, trained on modular arithmetic, that do and do not grok.
+This folder provides code for studying the training dynamics of Transformers, trained on modular arithmetic, that do and do not grok. Run ```mod_addition.py``` and ```constrained_mod_addition.py``` to generate your own training trajectories for Transformers that do and do not grok (respectively). Note that these scripts were modified from the repo associated with the paper "Omnigrok: Grokking Beyond the Data" (https://github.com/KindXiaoming/Omnigrok/tree/main). The weight trajectories will get saved into the **Experiments** folder. Run ```Transformer_plotting_results.py``` to generate plots analogous to Fig. 5C, D. See the **Figures** folder for our saved figures. 
 
+## 
 <img src="https://github.com/william-redman/Identifying_Equivalent_Training_Dynamics/blob/main/Koopman_schematic_overview.jpg" alt="Alt Text" height = "302" width = "600">
